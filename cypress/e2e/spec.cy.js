@@ -44,6 +44,6 @@ describe('empty spec', () => {
 describe('empty spec 2', () => {
   it.only('Scenario 2', () => {
     cy.visit('https://demoqa.com/sortable');
-    
+    SortableListPage.list.should("contain.text", "One")
   })
 })

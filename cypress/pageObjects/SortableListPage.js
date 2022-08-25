@@ -3,3 +3,5 @@ class SortableListPage {
         return cy.get("#demo-tabpane-list")
     }
 }
+
+export default SortableListPage
